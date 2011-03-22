@@ -9,7 +9,18 @@ get '/' do
   erb :index
 end
 
-get '/:tag' do
+get '/join-the-cause' do
+
   erb :index
+  
 end
+
+get '/educate-others' do
+
+  erb :index
+  
+end
+
+
+
 # TODO scrap the data from the statcounter website automatically
