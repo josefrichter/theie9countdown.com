@@ -31,8 +31,8 @@ a img {border: 0;}
 /*	Typography presets
 	------------------	*/
 
-@font-face { font-family: LeagueGothic; src: url('/assets/League_Gothic.otf') format('opentype'), url('../assets/League_Gothic.ttf') format('truetype'); } 
-@font-face { font-family: CallunaSans; src: url('/assets/CallunaSansRegular.otf') format('opentype'), url('../assets/CallunaSansRegular.ttf') format('truetype'); } 
+@font-face { font-family: LeagueGothic; src: url('/assets/League_Gothic.otf') format('opentype'), url('/assets/League_Gothic.ttf') format('truetype'); } 
+@font-face { font-family: CallunaSans; src: url('/assets/CallunaSansRegular.otf') format('opentype'), url('/assets/CallunaSansRegular.ttf') format('truetype'); } 
 
 
 .gigantic {
