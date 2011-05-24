@@ -13,7 +13,9 @@
     
     <!--[if IE]>
       <script type="text/javascript">
-        document.location = "http://theie9countdown.com/ie-users-info" // redirect IE users
+				if (document.location.hash != "#ie") {
+					document.location.pathname = "/ie-users-info" // redirect IE users unless #ie hash
+				}
       </script>
     <![endif]-->
 
@@ -273,33 +275,33 @@
       // Asia
       ctx.font = "72.0px LeagueGothic";
       ctx.fillStyle = "rgb(255, 255, 255)";
-      ctx.fillText("0.6%", 315.0, 170.2);
+      ctx.fillText("2.1%", 315.0, 170.2);
 
       // Worldwide
       ctx.font = "120.0px LeagueGothic";  // originally 144px
       ctx.fillStyle = "rgb(0, 0, 0)";
-      ctx.fillText("0.8%", 469.9, 137.5);
+      ctx.fillText("3.2%", 469.9, 137.5);
 
       // Europe
       ctx.font = "30.0px LeagueGothic"; // orig 36px
       ctx.fillStyle = "rgb(255, 255, 255)";
-      ctx.fillText("0.8%", 242, 165.9);
+      ctx.fillText("3.7%", 242, 165.9);
 
       // North America
       ctx.font = "60.0px LeagueGothic";
-      ctx.fillText("0.9%", 65, 163.1);
+      ctx.fillText("4.0%", 65, 163.1);
 
       // South America
       ctx.font = "30.0px LeagueGothic";
-      ctx.fillText("0.6%", 132.0, 280.7);
+      ctx.fillText("2.6%", 132.0, 280.7);
 
       // Africa
       ctx.font = "48.0px LeagueGothic";
-      ctx.fillText("0.7%", 230.4, 261.0);
+      ctx.fillText("2.5%", 230.4, 261.0);
 
       // Australia
       ctx.font = "30.0px LeagueGothic";
-      ctx.fillText("0.8%", 407.5, 299.1);
+      ctx.fillText("4.0%", 407.5, 299.1);
       ctx.restore();
     }
 
@@ -527,9 +529,9 @@
 		</header>
 		
 		<aside>
-			<h2>Another “browser”<br />is about to be born.</h2>
+			<h2>Recently another “browser”<br />is born.</h2>
 			<p>Its name is Internet Explorer 9. Now that we’re in 2011, in an era of modern web standards, it’s time to say no way.</p>
-			<p>This website is dedicated to watching Internet Explorer&nbsp;9 usage not reaching more than 1% worldwide, so more websites can choose to drop support for Internet Explorer&nbsp;9, saving hours of work for web developers.</p>
+			<p>This website is dedicated to watching Internet Explorer&nbsp;9 usage drop to less than 1% worldwide, so more websites can choose to drop support for Internet Explorer&nbsp;9, saving hours of work for web developers.</p>
 			
 			
 			<div id="arrow">
